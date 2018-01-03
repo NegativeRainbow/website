@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(to right, lightgrey, grey, lightgrey); }
+  body header #skip {
+    padding: 1px; }
+    body header #skip a {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      text-decoration: none; }
+      body header #skip a:focus, body header #skip a:hover, body header #skip a:active {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 0;
+        left: 0;
+        overflow: visible;
+        color: white;
+        border: none; }
+  body header nav a, body header nav .navbar-brand {
+    color: white; }
+    body header nav a.nav-item.nav-link:focus, body header nav a.nav-item.nav-link:hover, body header nav a.nav-item.nav-link:active, body header nav .navbar-brand.nav-item.nav-link:focus, body header nav .navbar-brand.nav-item.nav-link:hover, body header nav .navbar-brand.nav-item.nav-link:active {
+      font-weight: bold;
+      color: red; }
+  body header .jumbotron {
+    margin-bottom: 0; }
+    body header .jumbotron .title {
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%; }
+  body main .card {
+    margin: 5px;
+    border: solid 1px black;
+    box-shadow: 3px 3px 3px black;
+    flex-grow: 1;
+    background-color: lightgrey; }
+    body main .card .card-title {
+      text-decoration: underline;
+      font-weight: bold; }
+    body main .card .description {
+      flex-grow: 1; }
+    body main .card .image {
+      display: inline-block;
+      text-align: center; }
+      body main .card .image img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: top; }
+      body main .card .image figcaption {
+        text-align: center; }
+    body main .card ul {
+      padding: 0; }
+      body main .card ul li {
+        margin-left: 40px; }
+        body main .card ul li.event {
+          font-weight: bold;
+          margin: 0;
+          margin-left: 10px;
+          list-style-type: none;
+          font-size: 110%; }
+  body footer p {
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
